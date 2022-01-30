@@ -288,7 +288,7 @@ function update () {
 
     if ( ball.body.position.x < 1 ) {
         // Si la balle frappe le côté gauche, Donald Trump prend un coup et Kim Jon Un prend un point.
-        console.log("Trump is dead");
+        //console.log("Trump is dead");
         speed = baseSpeed;
         player2Score++;
         ball.body.position.x = gameWidth/2;
@@ -300,7 +300,7 @@ function update () {
 		printScore();
     } else if ( ball.body.position.x > gameWidth-ball.body.width-1 ) {
         // Si la balle frappe le côté droit, Donald Trump prend un point et Kim Jon Un prend un coup.
-        console.log("Kim is dead");
+        //console.log("Kim is dead");
         speed = baseSpeed;
         player1Score++;
         ball.body.position.x = gameWidth/2;
@@ -360,8 +360,8 @@ function wgResizeWindow() {
     if (typeof nukeSprite !== "undefined") {
         nukeSprite.scale.setTo(gameHeight / nukeVideo.height, gameHeight / nukeVideo.height);
         nukeSprite.centerX = game.world.centerX;
-        console.log("nukeSprite.centerX : " + nukeSprite.centerX );
+        //console.log("nukeSprite.centerX : " + nukeSprite.centerX );
         nukeSprite.centerY = game.world.centerY;
-        console.log("nukeSprite.centerY : " + nukeSprite.centerY );
+        //console.log("nukeSprite.centerY : " + nukeSprite.centerY );
     }
 }
