@@ -6,7 +6,7 @@
 //  |_| \_| \____/ |_|\_\/_/    \_\|_|      \____/ |_| \_| \_____|
 //
 //  NUKAPONG - A Kim vs Don story
-//  Copyright ©2017-2018 William Gacquer aka Y-boY aka M4N
+//  Copyright ©2017-2022 William Gacquer aka Y-boY aka M4N
 
 
 ///////////////////////////////////////////////////////////////
@@ -77,7 +77,7 @@ function preload() {
     // Pour éviter les problèmes de contrôle d'accès "CORS"
     // ( voir https://developer.mozilla.org/fr/docs/HTTP/Access_control_CORS )
     game.load.crossOrigin = 'anonymous';
-    // Je pourrais charge mes les images des joueurs ainsi :
+    // Je pourrais charger les images des joueurs ainsi :
     //    game.load.image('Trump', 'https://upload.wikimedia.org/wikipedia/commons/8/8e/Donald_Trump_%28TheDon%29.png');
     //    game.load.image('Kim', 'https://upload.wikimedia.org/wikipedia/commons/3/31/Kim_III.png');
     //    game.load.image('NuclearBall', 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Nuclear_symbol.svg/1024px-Nuclear_symbol.svg.png');
